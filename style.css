@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+/* Show the form first, hide the receipt */
+#form-page { display: block; }
+#receipt-page { display: none; }
+
+.receipt-header h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.receipt-header p {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+textarea.form-control {
+  height: 80px;
+  resize: vertical;
+}
+
+.receipt-page {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.receipt-page .header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.status i {
+  margin-top: 10px;
+}
+
+.receipt-info {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.receipt-info .info-item {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.receipt-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
